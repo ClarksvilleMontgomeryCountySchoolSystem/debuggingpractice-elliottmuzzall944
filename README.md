@@ -29,13 +29,8 @@ pytest test_tasks.py -v
 
 ---
 
-## For the Sub
 
-Students should:
-1. Start with task1.py - run it, see the error, fix it, run again (23 snippets)
-2. Move to task2.py - fix input bugs first, then comment out main() and fix conversion bugs
-3. Run `pytest test_tasks.py -v` to verify all fixes
 
-**Hints if students are stuck:**
+**TIPS:**
 - Task 1: Look for typos, missing quotes, mismatched quotes, indentation issues, missing colons
 - Task 2: Remember `input()` always returns a string - use `int()` or `float()` to convert before math
